@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman';
+    box-sizing: border-box;
+}
+body::before{
+    display: block;
+    content: '';
+    height: 72px;
+}
+#topbar{
+    background-color: rgba(5, 3, 129, 0.699);
+}
+#showcase-text{
+    color: rgba(5, 3, 129, 0.699);
+}
+#showcase-btn{
+    background-color: rgba(5, 3, 129, 0.699);
+}
+#navbar-brand{
+    margin-left: -6rem;
+}
+#showcase-area{
+    z-index: 1;
+    background: linear-gradient(-45deg,blue, yellow);
+}
+#news-letter-area{
+    background-color: rgba(5, 3, 129, 0.699);
+}
+#newsletter-btn{
+    background: linear-gradient(-45deg,yellowgreen, yellow);
+}
+#boxes-area{
+    background: rgba(17, 20, 236, 0.384);
+}
+#virtual-card{
+    background-color: rgba(5, 3, 129, 0.699);
+}
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+#virtual-btn{
+    background-color: rgba(5, 3, 129, 0.699);
+}
+/* #virtual-btn:hover{
+    color: yellowgreen;
+} */
+#hybrid-card{
+    background: linear-gradient(-45deg,blue, yellow);
+}
+#hybrid-btn{
+    background-color: rgba(5, 3, 129, 0.699);
+}
+#in-person-card{
+    background-color: rgba(5, 3, 129, 0.699);
+}
+#in-person-btn{
+    background-color: rgba(5, 3, 129, 0.699);
+}
+#learn{
+    background: rgba(17, 20, 236, 0.384);
+}
+#second-learn-area{
+    background: linear-gradient(-90deg,blue, yellow);   
+}
+#questions{
+    background: rgba(17, 20, 236, 0.384);
+}
+#all-accordion-bg{
+    background: rgba(17, 20, 236, 0.384);
+}
+#instructors{
+   background: linear-gradient(-45deg,blue, yellow);
+}
+#all-instructor-card{
+    background-color: rgba(17, 20, 236, 0.384);
+}
+#contact-map-area{
+    background: rgba(17, 20, 236, 0.384);
+}
+#enroll{
+    background: rgba(127, 129, 247, 0.384);
+}
+#enroll-btn1{
+    background: linear-gradient(-45deg,yellowgreen, yellow);
+}
+#enroll-btn2{
+    background: linear-gradient(-45deg,blue, rgb(0, 153, 255));
+}
